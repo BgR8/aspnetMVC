@@ -9,9 +9,13 @@ namespace Uyg.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        public string index()
+        /*public string index()
         {
             return "Merhaba Dünya, bu ASP.NET MVC Uygulamasıdır";
+        }*/
+        public ActionResult Index()
+        {
+            return RedirectToAction("getirTumMusteri", "Musteri");
         }
     }
 }

@@ -126,6 +126,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ElemanController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MusteriController.cs" />
     <Compile Include="Controllers\ProcessController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -150,6 +151,7 @@
     <Folder Include="Models\" />
     <Folder Include="Views\Eleman\" />
     <Folder Include="Views\Home\" />
+    <Folder Include="Views\Musteri\" />
     <Folder Include="Views\Process\" />
   </ItemGroup>
   <PropertyGroup>
