@@ -19,6 +19,11 @@ namespace Uyg
             );
 
             routes.MapRoute(
+                "Eleman", "Eleman/{isim}",
+                defaults: new { controller = "Eleman", action = "Arama", isim = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
